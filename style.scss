@@ -124,7 +124,6 @@
 .features {
   margin-top: $main-margin * 2;
   background-color: $background;
-  min-height: 100vh; // Remove Later.
 }
 
 // Import Form Rules
@@ -259,7 +258,7 @@
   align-items: flex-start;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: $gap / 1.6; // 25px
-  padding: $main-padding + 30 0 $main-padding * 2 0;
+  padding: $main-padding + 30 0 $main-padding + 40 0;
 
   @media (max-width: 666px) {
     gap: $gap * 2; // 80px
