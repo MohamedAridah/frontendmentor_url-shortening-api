@@ -23,7 +23,7 @@
 .landing {
   @include flex(null, null, center);
   padding: $main-padding - 10 0;
-  margin-left: 10%;
+  margin-left: (100 - $container-width) / 2;
   overflow-x: hidden;
 
   @include media-992 {
