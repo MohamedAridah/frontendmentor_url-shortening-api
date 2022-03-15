@@ -823,7 +823,7 @@ img {
 .footer .quick-links .links-group {
   display: flex;
   flex-direction: column;
-  gap: 13.33333px;
+  gap: 20px;
 }
 
 .footer .links-group span {
