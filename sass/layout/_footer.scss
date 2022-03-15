@@ -41,13 +41,8 @@
   }
 
   .links-group {
-    h5 {
+    h4 {
       color: $white;
-      font-size: $font-size - 2; // 14px
-
-      @media (max-width: 705px) {
-        font-size: $font-size + 2; // 18px
-      }
     }
 
     > div {
